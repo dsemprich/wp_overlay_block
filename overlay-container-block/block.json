@@ -1,0 +1,37 @@
+{
+  "apiVersion": 3,
+  "name": "overlay/container",
+  "title": "Overlay Container",
+  "category": "layout",
+  "icon": "screenoptions",
+  "description": "Stack two arbitrary blocks so one overlays the other.",
+  "textdomain": "overlay-container-block",
+  "attributes": {
+    "verticalAlign": {
+      "type": "string",
+      "enum": ["start", "center", "end"],
+      "default": "center"
+    },
+    "horizontalAlign": {
+      "type": "string",
+      "enum": ["start", "center", "end"],
+      "default": "center"
+    },
+    "padding": {
+      "type": "string",
+      "enum": ["none", "small", "medium", "large"],
+      "default": "none"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": ["wide", "full"],
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/style-index.css",
+  "editorStyle": "file:./build/index.css"
+}

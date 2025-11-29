@@ -1,0 +1,46 @@
+.wp-block-overlay-container {
+    position: relative;
+    width: 100%;
+}
+
+.wp-block-overlay-container .overlay-base {
+    position: relative;
+    z-index: 1;
+}
+
+.wp-block-overlay-container .overlay-layer {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.wp-block-overlay-container.overlay-align-vertical-start .overlay-layer {
+    align-items: flex-start;
+}
+
+.wp-block-overlay-container.overlay-align-vertical-end .overlay-layer {
+    align-items: flex-end;
+}
+
+.wp-block-overlay-container.overlay-align-horizontal-start .overlay-layer {
+    justify-content: flex-start;
+}
+
+.wp-block-overlay-container.overlay-align-horizontal-end .overlay-layer {
+    justify-content: flex-end;
+}
+
+.wp-block-overlay-container.overlay-padding-small .overlay-layer {
+    padding: 0.75rem;
+}
+
+.wp-block-overlay-container.overlay-padding-medium .overlay-layer {
+    padding: 1.5rem;
+}
+
+.wp-block-overlay-container.overlay-padding-large .overlay-layer {
+    padding: 2.25rem;
+}

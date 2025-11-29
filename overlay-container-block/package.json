@@ -1,0 +1,22 @@
+{
+  "name": "overlay-container-block",
+  "version": "1.0.0",
+  "description": "Overlay container block for stacking base and overlay content.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "block",
+    "overlay"
+  ],
+  "author": "ChatGPT",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^28.5.0"
+  }
+}

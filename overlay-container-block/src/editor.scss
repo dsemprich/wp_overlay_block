@@ -1,0 +1,8 @@
+.wp-block-overlay-container {
+min-height: 200px;
+}
+
+.wp-block-overlay-container .overlay-layer {
+outline: 1px dashed var(--wp-admin-theme-color);
+outline-offset: -1px;
+}
